@@ -84,6 +84,7 @@ $$u(x,0) = x^2 - x$$
 ### Boundary Conditions
 
 $$u(0,t) = 0, \quad u(1,t) = 0$$
+
 The one-dimensional heat equation was solved numerically using NDSolve in Wolfram Mathematica.  
 The surface plot below illustrates the temporal diffusion of the initial temperature distribution.
 
