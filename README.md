@@ -14,6 +14,9 @@ Concepts used:
 -Multivariable calculus
 -3D plotting and contour analysis
 
+<p align="center">
+  <img src="3.png" width="500">
+</p>
 ![Ellipse](3.png)
 ![Donut](2.png)
 ![$x^2$-$y^2$](1.png)
