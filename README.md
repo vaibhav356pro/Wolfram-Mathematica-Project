@@ -14,6 +14,10 @@ Concepts used:
 -Multivariable calculus
 -3D plotting and contour analysis
 
+![Ellipse](3.png)
+![Donut](2.png)
+![$x^2$-$y^2$](1.png)
+
 ## 2. Wave and Heat Equations
 -Solved classical partial differential equations:
 ->Wave Equation
@@ -27,6 +31,8 @@ Concepts used:
 -Fourier methods
 -Numerical visualization
 
+![Heat Equation](4.png)
+
 ## 3. Growth and Decay Models
 -Modeled exponential growth and decay processes
 -Applied to population growth and decay scenarios
@@ -36,6 +42,8 @@ Concepts used:
 -First-order differential equations
 -Exponential modeling
 -Real-world interpretation of parameters
+
+![Growth Model](5.png)
 
 ## Tools Used
 -Wolfram Mathematica
