@@ -14,8 +14,14 @@ Concepts used:
 -Multivariable calculus  
 -3D plotting and contour analysis
 
-### Surface of Revolution of Parabola $y^2$=4ax  
-The surface is obtained by revolving the parabola $y^2$=4ax about the x-axis.  
+### Surface of Revolution of Parabola 
+$$
+y^2 = 4ax
+$$  
+The surface is obtained by revolving the parabola 
+$$
+y^2 = 4ax
+$$ about the x-axis.  
 This generates a three-dimensional surface whose parametric representation is derived using cylindrical symmetry.
 
 The resulting surface is visualized below:
@@ -25,7 +31,10 @@ The resulting surface is visualized below:
 
 ### Surface of Revolution – Torus
 The surface shown above is obtained by revolving the parametric curve  
-x = 2 + Cos t, y = Sin t,
+
+$$
+x = 2 + \cos t, \quad y = \sin t
+$$
 
 about the z- axis
 This generates a toroidal surface (torus) or a donut like figure, characterized by circular symmetry and a central void. The geometry is visualized using RevolutionPlot3D in Wolfram Mathematica.
@@ -34,14 +43,23 @@ This generates a toroidal surface (torus) or a donut like figure, characterized 
 </p>
 
 ### Surface Plot and Level Curves
-Function f(x,y) = $x^2$-$y^2$
+Function f(x,y) = 
+$$
+x^2 - y^2
+$$
 
-The function f(x,y) = $x^2$-$y^2$ defines a hyperbolic paraboloid, commonly known as a saddle surface.
+The function f(x,y) = 
+$$
+x^2 - y^2
+$$defines a hyperbolic paraboloid, commonly known as a saddle surface.
 The surface exhibits opposite curvature along the x and y directions.
 
 Level curves were obtained by fixing the height z=c, resulting in:
 
--Hyperbolas for c!=0
+-Hyperbolas for 
+$$
+c \neq 0
+$$
 -Intersecting straight lines when c=0
 
 The surface and its mesh structure are visualized below:
@@ -66,6 +84,32 @@ Concepts used:
 -Fourier methods  
 -Numerical visualization
 
+### Heat Equation Solution
+Problem Statement
+$$
+\frac{\partial u}{\partial t} - \frac{\partial^2 u}{\partial x^2} = 0,
+\quad 0 < x < 1,\; t > 0
+$$
+
+### Initial Condition
+
+$$
+u(x,0) = x^2 - x
+$$
+
+### Boundary Conditions
+
+$$
+u(0,t) = 0, \quad u(1,t) = 0
+$$
+The one-dimensional heat equation was solved numerically using NDSolve in Wolfram Mathematica.  
+The surface plot below illustrates the temporal diffusion of the initial temperature distribution.
+
+The solution demonstrates:  
+Dissipation of heat over time  
+Smoothing behavior characteristic of parabolic PDEs  
+Convergence toward steady-state equilibrium
+The one-dimensional heat equation is given by:
 <p align="center">
   <img src="4.png" width="500">
 </p>
@@ -80,6 +124,39 @@ Concepts used:
 -Exponential modeling  
 -Real-world interpretation of parameters
 
+### Exponential Growth Model
+Mathematical Model
+
+The exponential growth model is governed by the differential equation:  
+$$
+\frac{dx}{dt} = kx, \quad k > 0
+$$
+
+whose solution is:
+
+$$
+x(t) = x_0 e^{kt}
+$$
+
+---
+
+## Application
+
+Suppose a population grows at an annual rate of **2%**, with an initial population of **3 million**.
+
+### Parameters
+
+- $x_0 = 3$
+- $k = 0.02$
+- $t = 10$ years
+
+The population after 10 years is:
+
+$$
+x(10) = 3e^{0.2} \approx 3.6642
+$$
+
+Thus, the model predicts a population of approximately **3.664 million** after 10 years.
 <p align="center">
   <img src="5.png" width="500">
 </p>
