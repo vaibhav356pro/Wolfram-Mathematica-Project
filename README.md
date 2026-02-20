@@ -14,16 +14,43 @@ Concepts used:
 -Multivariable calculus  
 -3D plotting and contour analysis
 
+### Surface of Revolution of Parabola $y^2$=4ax  
+The surface is obtained by revolving the parabola $y^2$=4ax about the x-axis.  
+This generates a three-dimensional surface whose parametric representation is derived using cylindrical symmetry.
+
+The resulting surface is visualized below:
 <p align="center">
   <img src="3.png" width="500">
 </p>
 
+### Surface of Revolution – Torus
+The surface shown above is obtained by revolving the parametric curve  
+x = 2 + Cos t, y = Sin t,
+
+about the z- axis
+This generates a toroidal surface (torus) or a donut like figure, characterized by circular symmetry and a central void. The geometry is visualized using RevolutionPlot3D in Wolfram Mathematica.
 <p align="center">
   <img src="2.png" width="500">
 </p>
 
+### Surface Plot and Level Curves
+Function f(x,y) = $x^2$-$y^2$
+
+The function f(x,y) = $x^2$-$y^2$ defines a hyperbolic paraboloid, commonly known as a saddle surface.
+The surface exhibits opposite curvature along the x and y directions.
+
+Level curves were obtained by fixing the height z=c, resulting in:
+
+-Hyperbolas for c!=0
+-Intersecting straight lines when c=0
+
+The surface and its mesh structure are visualized below:
 <p align="center">
   <img src="1.png" width="500">
+</p>
+
+<p align="center">
+  <img src="6.png" width="500">
 </p>
 
 ## 2. Wave and Heat Equations
