@@ -59,7 +59,7 @@ The surface and its mesh structure are visualized below:
   <img src="6.png" width="500">
 </p>
 
-## 2. Wave and Heat Equations
+## 2. Heat and Wave Equations
 -Solved classical partial differential equations:  
 ->Wave Equation  
 ->Heat Equation  
