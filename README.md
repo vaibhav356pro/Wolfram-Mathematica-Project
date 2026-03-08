@@ -146,5 +146,3 @@ Thus, the model predicts a population of approximately **3.664 million** after 1
 -PDE solving  
 -Scientific visualization  
 -Computational mathematics
-
-## This project strengthens foundational mathematical modeling skills applicable in quantitative finance, risk modeling, and data analysis.
