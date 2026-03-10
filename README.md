@@ -1,4 +1,4 @@
-# Wolfram-Mathematica-Project
+# Mathematical Modelling and Visualization Using Wolfram Mathematica
 
 ## Project Overview
 This project demonstrates analytical and computational techniques in mathematical modeling using Wolfram Mathematica. It includes geometric visualization, partial differential equation solutions, and real-world modeling applications.
